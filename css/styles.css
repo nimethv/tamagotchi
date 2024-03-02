@@ -1,0 +1,82 @@
+body {
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+    background-color: #e0e0e0;
+  }
+  
+  #tamagotchi {
+    width: 350px;
+    margin: 100px auto;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #a70909; 
+  }
+  
+  #img-gato {
+    width: 100%; 
+    max-width: 200px;
+    height: auto; 
+    border-radius: 50%; 
+    margin-bottom: 20px;
+  
+  }
+  
+  #status {
+    margin-bottom: 20px;
+  }
+  
+  #status p {
+    margin: 5px 0 0 0;
+  }
+  
+  #actions button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+    width: 40px; 
+    height: 40px; 
+    border: 2px solid #a70909; 
+  }
+  
+  #actions button i {
+    font-size: 24px;
+  }
+  
+  #actions button:hover {
+    background-color: #580404;
+  }
+  
+  .action-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #a70909;
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 40%; 
+    background-position: center; 
+  }
+  
+  
+  #feedBtn {
+    background-image: url('/css/imagens/icones/utensils-solid.svg');
+  }
+  
+  #sleepBtn {
+    background-image: url('/css/imagens/icones/moon-solid.svg');
+  }
+  
+  #playBtn {
+    background-image: url('/css/imagens/icones/puzzle-piece-solid.svg');
+  }
+  

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamagotchi</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="tamagotchi">
+    <h1>Tamagotchi</h1>
+    <img id="img-gato" src="/css/imagens/estados/gato-neutro.png" alt="Gato neutro">
+        <div id="status">
+            <p>Fome: <span id="hunger">50</span></p>
+            <p>Sono: <span id="sleep">50</span></p>
+            <p>Diversão: <span id="fun">50</span></p>
+        </div>
+        <div id="actions">
+          <button id="feedBtn" class="action-btn"></button>
+          <button id="sleepBtn" class="action-btn"></button>
+          <button id="playBtn" class="action-btn"></button>
+        </div>
+</div>
+      
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="/js/acoes.js"></script>
+
+</body>
+</html>
